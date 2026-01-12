@@ -1,5 +1,3 @@
-"use client"
-
 import React from "react"
 import Navbar from "../components/landing/Navbar"
 import HowItWorksHero from "../components/how-it-works/HowItWorksHero"
@@ -12,7 +10,7 @@ import Footer from "../components/landing/Footer"
 
 export default function HowItWorksPage() {
   return (
-    <div className="min-h-screen bg-white">
+    <>
       <Navbar />
       <HowItWorksHero />
       <DetailedStepsSection />
@@ -21,6 +19,6 @@ export default function HowItWorksPage() {
       <AITechnologySection />
       <CTASection />
       <Footer />
-    </div>
+    </>
   )
 }
